@@ -2,10 +2,16 @@
 Code for modelling the lunar dust cloud at low altitudes.
 
 README - readme file for understanding what each code file does.
+
 MainModel.ipynb - Jupyter notebook file to produce the global, high altitude dust cloud. No input is required, simply run the code to produce the model.
+
 LowAlt.ipynb - Jupyter notebook file to produce the global, low altitude dust cloud. No input is required, simply run the code to produce the model.
 Meteor_showers.ipynb - Jupyter notebook file to produce the global, low altitude dust cloud during a meteor shower. When run, the script prompts the user to input whether they would like to include effects of a meteor shower. Type 'y' for yes, and then the user will be prompted for an intensity level from 1-4. After these inputs, the code will produce the model.
+
 varyingIce.ipynb - Jupyter notebook file to produce the localised, low altitude dust cloud in a region with varying ice concentration in the regolith. No input is required, simply run the code to produce the model. If a different yield or kinetic energy ratio is desired, change the value of the variable 'Y_ice' or 'K' respectively.
+
 varyingKE.ipynb - Jupyter notebook file to produce localised, low altitude dust cloud in a region with a desired ice concentration in the regolith, with the kinetic energy ratio of ice being varied. When run, the script prompts the user to input what concentration of ice is desired (enter a number from 0-100). If a different yield is desired, change the value of the variable 'Y_ice'. 
+
 varyingY.ipynb - Jupyter notebook file to produce localised, low altitude dust cloud in a region with a desired ice concentration in the regolith, with the yield of ice being varied. When run, the script prompts the user to input what concentration of ice is desired (enter a number from 0-100). If a different kinetic energy ratio is desired, change the value of the variable 'K'. 
+
 Ice_Meteor_showers.ipynb - Jupyter notebook file to produce a localised, low altitude dust cloud in a region with a desired ice concentration in the regolith, during a meteor shower. When run, the script prompts the user to input what concentration of ice is desired (enter a number from 0-100). It then prompts the user to input whether they would like to include effects of a meteor shower. Type 'y' for yes, and then the user will be prompted for an intensity level from 1-4. If a different yield or kinetic energy ratio is desired, change the value of the variable 'Y_ice' or 'K' respectively.
